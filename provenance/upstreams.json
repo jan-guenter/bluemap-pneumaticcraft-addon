@@ -1,0 +1,37 @@
+{
+  "artifacts": [
+    {
+      "curseforge_file": 8519226,
+      "curseforge_project": 281849,
+      "download_url": "https://www.curseforge.com/api/v1/mods/281849/files/8519226/download",
+      "evidence": "All the Mons 1.2.0 disposable staging runtime JAR was hash-verified; CurseForge 281849/8519226 and Modrinth ncAcdgk7/TNzeuLH3 identify the same filename, size, version, loader, and SHA-1",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar",
+      "key": "pneumaticcraft",
+      "license": "GNU GPLv3",
+      "mod_id": "pneumaticcraft",
+      "redistributed": false,
+      "sha1": "44ea59cb9ac3abfc343518e50cc19fe7200a592e",
+      "sha256": "647ce20d52cf139f3b693b9b4c4753966a95a6dafc82d9e538ae4ae5b0249f9c",
+      "size": 11884697,
+      "version": "8.2.23"
+    }
+  ],
+  "bluemap": {
+    "api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971",
+    "commit": "9be321df995a1103808621d529eb72773e719d4d",
+    "license": "MIT",
+    "redistributed": false,
+    "version": "5.22-agent.backport-5.22-mc1.21.1-2"
+  },
+  "pack": {
+    "commit": "c7bb230f21d14d26859d0b92548f089b3a493ad9",
+    "minecraft": "1.21.1",
+    "name": "All the Mons",
+    "neoforge": "21.1.248",
+    "version": "1.2.0"
+  },
+  "profile": "pneumaticcraft-8.2.23-mc1.21.1",
+  "schema": 1,
+  "source_use": "Runtime interfaces and installed resources may be interpreted only after family-specific evidence is recorded; no candidate classes, assets, binaries, source, or captured meshes are packaged."
+}

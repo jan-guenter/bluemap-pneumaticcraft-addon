@@ -1,0 +1,379 @@
+{
+  "deterministic": true,
+  "family_id": "pneumaticcraft",
+  "generator": "bluemap-java21-addon-scaffold-v1",
+  "initial_files": [
+    {
+      "mode": "0644",
+      "path": ".gitattributes",
+      "sha256": "c0b5802900ed076871e7878f051eb2cd8d7918dbfada3f40f86300fa7325252d",
+      "size": 58
+    },
+    {
+      "mode": "0644",
+      "path": ".github/workflows/ci.yml",
+      "sha256": "6ab46e82c8b04605f626e051b7b034a05b698f6048b0082b587e2a8bd7f65256",
+      "size": 4497
+    },
+    {
+      "mode": "0644",
+      "path": ".github/workflows/release.yml",
+      "sha256": "10e8995f45ce1133535245e9a87828a74339e2fe7e42b53e50f86fcd6b9d6967",
+      "size": 6653
+    },
+    {
+      "mode": "0644",
+      "path": ".gitignore",
+      "sha256": "a5030053f21da04c319ab8abe4020d2ee1d488430e79f0b8ce04f1d7f29a93f6",
+      "size": 105
+    },
+    {
+      "mode": "0644",
+      "path": "AGENTS.md",
+      "sha256": "20b3e6a4620b52bdab9543f2568f8954d94e7ea86a4bc000e47769ea384018b7",
+      "size": 2153
+    },
+    {
+      "mode": "0644",
+      "path": "CHANGELOG.md",
+      "sha256": "d442165aa83ae34f0c7a094a5db1bc97262557831c12a3c93f377ea919d490e0",
+      "size": 212
+    },
+    {
+      "mode": "0644",
+      "path": "LICENSE",
+      "sha256": "f079a10f7ddfae72170c16c8be18685f05e36309955c3858e9f863d4cae7cfce",
+      "size": 1068
+    },
+    {
+      "mode": "0644",
+      "path": "LICENSE-BlueMap",
+      "sha256": "f1c190d4a1ff29606cbed7a0d97fc7b7117cc2e1169e19caa753198957dbbfd6",
+      "size": 1122
+    },
+    {
+      "mode": "0644",
+      "path": "NOTICE.md",
+      "sha256": "11c7f323c0aa319f3b54886517a2309b9b7722c2a15d4f62e91a75061a99517f",
+      "size": 444
+    },
+    {
+      "mode": "0644",
+      "path": "README.md",
+      "sha256": "f896cde0645cae58752a80f0ae3b5aeb62bc12df72ff55a1c8ff4b8c176c49f8",
+      "size": 1587
+    },
+    {
+      "mode": "0644",
+      "path": "THIRD_PARTY.md",
+      "sha256": "3e2a8590da3e5b85dbf9b2197aafb8124e695d6a9d401f1a057ba7cae24603df",
+      "size": 638
+    },
+    {
+      "mode": "0644",
+      "path": "build.gradle",
+      "sha256": "ed5c75e1644f8d5b175b3a3c4851c2ba98b0008544a5a82aef78d85e6795bf14",
+      "size": 19605
+    },
+    {
+      "mode": "0644",
+      "path": "config/checkstyle/checkstyle.xml",
+      "sha256": "77fe7b6d9a70f527daf7288ad2955e467f1059ef75b0c3d0d63694c8bea285d7",
+      "size": 791
+    },
+    {
+      "mode": "0644",
+      "path": "docs/EXECUTION.md",
+      "sha256": "e3a3bed05be113ef2fa0da8725fe0dbb7745ecf6b62aee7654db67449a9b14a6",
+      "size": 2091
+    },
+    {
+      "mode": "0644",
+      "path": "docs/RELEASING.md",
+      "sha256": "7488e66595e35648c172f99f43104e5dc8bdc99569a106b25bb628ef7f4b4b5d",
+      "size": 1522
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/README.md",
+      "sha256": "e6313958d9dcd19c3ec4a2b912a028a9d70a0f9cfbde9335c3a171128c7215e6",
+      "size": 686
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/SHA256SUMS",
+      "sha256": "66529f21ec4ca2584854735b7dbf4c40336448a8d9a574ec566a3ca8f1003cda",
+      "size": 929
+    },
+    {
+      "mode": "0755",
+      "path": "gallery/cases.py",
+      "sha256": "702f4e6bcd91d5f70b3a20cf17e648507a877a321bf36b6b5566312997d60b92",
+      "size": 776
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/minecraft/tags/function/load.json",
+      "sha256": "39e6e85eb4f30bbeb986c37a61e64713ee878bf8aed470ab5d62fc2aed3268bc",
+      "size": 56
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/pneumaticcraft_gallery/function/build.mcfunction",
+      "sha256": "6a148fb82c0ca7d82dcd8de272726c561c2b7dc5c98b6a4b67ec2750d650f3b5",
+      "size": 210
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/pneumaticcraft_gallery/function/clear.mcfunction",
+      "sha256": "4507683d949af7e2312781de5e2ef0cb5d090ff6584e08f003a406bb4586b5d3",
+      "size": 91
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/pneumaticcraft_gallery/function/load.mcfunction",
+      "sha256": "d659ea3e309fd3af38dad90b99e1477082dbad8054e5eea333dbe06ad2331427",
+      "size": 189
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/pneumaticcraft_gallery/function/release.mcfunction",
+      "sha256": "ec16212490b511ca8d910ac9fb98590533a20801255313a165813857b29a7696",
+      "size": 87
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/data/pneumaticcraft_gallery/function/verify.mcfunction",
+      "sha256": "720706664f8510add43bf8b7e19cb650393e460786ef624c9cc64d6691638641",
+      "size": 267
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/datapack/pack.mcmeta",
+      "sha256": "37d6e4a08ec981663a46b0e740b270348c81ccf47240e803b699c744a055a1af",
+      "size": 124
+    },
+    {
+      "mode": "0755",
+      "path": "gallery/generate.py",
+      "sha256": "52bf774a9e0779ac62f98677edaba4227057bfefb307508a85a1398907c8cac1",
+      "size": 4859
+    },
+    {
+      "mode": "0755",
+      "path": "gallery/lint.py",
+      "sha256": "b970deb190d8597b0b0c07429be2898edd5bad6cef5c35e0f5b4bdfad7d58982",
+      "size": 2469
+    },
+    {
+      "mode": "0755",
+      "path": "gallery/package.sh",
+      "sha256": "f376e29866cef8e4ecabd3181daeffd4438739536d07691cd2089a5e1430f1ab",
+      "size": 1322
+    },
+    {
+      "mode": "0644",
+      "path": "gallery/placements.tsv",
+      "sha256": "b56ee047c4aa36d26a7ca29b867a4bee61e3fa5aa25f0c4247ee46ca07cff797",
+      "size": 127
+    },
+    {
+      "mode": "0644",
+      "path": "gradle.properties",
+      "sha256": "cfc3eb4e9e08c8dbc2a2cdc12eed76562460552dc51c2fa6b894bc8ee72a3eed",
+      "size": 621
+    },
+    {
+      "mode": "0644",
+      "path": "provenance/release.json",
+      "sha256": "7d59bbe37bc165108f4a9d7eb386de3083099788daf1e61817bc882493b2c841",
+      "size": 370
+    },
+    {
+      "mode": "0644",
+      "path": "provenance/upstreams.json",
+      "sha256": "180b0c0e2a9546d6007f00b18ff9af7c8b64d7a883176f27493e84ba1d04064e",
+      "size": 1538
+    },
+    {
+      "mode": "0644",
+      "path": "settings.gradle",
+      "sha256": "67bde6b47099e223ce6ffb20a236e75343b049de78eb2f51794d258209e0b093",
+      "size": 1433
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/BlueMapPneumaticCraftAddon.java",
+      "sha256": "811041207e7e3d7e59e16a3213c9090a5b38bb5828f7101f3e46f4fe62e9aa7e",
+      "size": 1595
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/activation/AddonRuntime.java",
+      "sha256": "61cef5d166e978f5b19fdf7d520591c2b2f6c49b9bfe1829cbc34690f6c909c5",
+      "size": 2182
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/AdapterCompatibility.java",
+      "sha256": "61dc512167739afb280ed49ac2f0ccff54329290979017297b2ad89026fcc0d9",
+      "size": 1044
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/BlueMap522Adapter.java",
+      "sha256": "85f539e6150d3cc49739de7ac068214eb8f3e235af00a0f1e7939f70c0dcfaa7",
+      "size": 1148
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/ProfileResourceExtension.java",
+      "sha256": "0d5643383ab1d990581f7b3ed6a08569b0ad8f8715a00e8b8fb4ddfb87d795b1",
+      "size": 1728
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/ProfileResourceExtensionType.java",
+      "sha256": "c8168f9534dcd57537ad5ac375462f7910a0d112f37e2dc507770bb96096d775",
+      "size": 939
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/RegistryGuard.java",
+      "sha256": "b22d4e2259f055470e3306848fc5018981b224200b07e8c5df24c4fb7b5b4201",
+      "size": 881
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/profile/ArtifactPin.java",
+      "sha256": "00e0b8324b24f89ead6412d974073a14837cf3ce7ef55394bcd376dbd48d95a7",
+      "size": 1376
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/profile/ExactArtifactDetector.java",
+      "sha256": "61b296473dfaa9b32e009b830ed47208f6a719a0c963b9ceeeff19839639da2b",
+      "size": 9967
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/java/io/github/janguenter/bluemap/pneumaticcraft/profile/PneumaticCraft823Profile.java",
+      "sha256": "5dc3dbcb794f2ec8c7d92823892d4b84c9a9bbb18aa8a704956fc87e58451d6c",
+      "size": 786
+    },
+    {
+      "mode": "0644",
+      "path": "src/main/resources/bluemap.addon.json",
+      "sha256": "84a14fde0c1b5f948a6190a7b3d45262812c5dcfcd587cf4944db7a5ba7feb2c",
+      "size": 176
+    },
+    {
+      "mode": "0644",
+      "path": "src/test/java/io/github/janguenter/bluemap/pneumaticcraft/activation/AddonRuntimeTest.java",
+      "sha256": "81821b7fbe118ae30000d0e850833b1bae77eb67462856613164f023dafe676f",
+      "size": 1080
+    },
+    {
+      "mode": "0644",
+      "path": "src/test/java/io/github/janguenter/bluemap/pneumaticcraft/adapter/bluemap522/AdapterCompatibilityTest.java",
+      "sha256": "73a3a3ed162060008206d9bc609d6aee965585073ceebb34e3e5100744a480f1",
+      "size": 968
+    },
+    {
+      "mode": "0644",
+      "path": "src/test/java/io/github/janguenter/bluemap/pneumaticcraft/profile/ExactArtifactDetectorTest.java",
+      "sha256": "03130e965e556fa69bf00ea2a5718a993dbb25bf621d6fe06d20a770e01f2590",
+      "size": 3429
+    },
+    {
+      "mode": "0755",
+      "path": "tools/verify_pinned_artifacts.py",
+      "sha256": "dc7c6d80796f9d5773183a499aa61320a0126ac21f1fdb5c8e872bbf618ca798",
+      "size": 3508
+    },
+    {
+      "mode": "0755",
+      "path": "tools/verify_staged_equivalence.py",
+      "sha256": "cc8fa6cb1e79b85555b9f10920909b0c03fdc8d78445e07c877674e513fcff9f",
+      "size": 4441
+    }
+  ],
+  "repository": "bluemap-pneumaticcraft-addon",
+  "schema": 1,
+  "spec_sha256": "585034dd528650c9c6f131d7555e1b52aaba7416d31914b5510943b8e1eef2cc",
+  "steps": [
+    {
+      "description": "Validate the reviewed scaffold spec.",
+      "id": "validate-spec",
+      "number": 1,
+      "status": "complete"
+    },
+    {
+      "description": "Render and byte-audit the deterministic seed.",
+      "id": "render-seed",
+      "number": 2,
+      "status": "complete"
+    },
+    {
+      "description": "Initialize the independent child repository and feature branch.",
+      "id": "initialize-repository",
+      "number": 3,
+      "status": "pending"
+    },
+    {
+      "description": "Acquire exact candidate artifacts outside Git and verify their identities.",
+      "id": "acquire-artifacts",
+      "number": 4,
+      "status": "pending"
+    },
+    {
+      "description": "Verify Java 21 and exact BlueMap, API, pack, and loader pins.",
+      "id": "verify-baseline",
+      "number": 5,
+      "status": "pending"
+    },
+    {
+      "description": "Implement family-owned registration, profile, decoder, and renderer.",
+      "id": "implement-family",
+      "number": 6,
+      "status": "pending"
+    },
+    {
+      "description": "Add focused compatibility, decoder, geometry, and fallback tests.",
+      "id": "focused-tests",
+      "number": 7,
+      "status": "pending"
+    },
+    {
+      "description": "Replace the stock-only gallery with the smallest defect fixture.",
+      "id": "defect-gallery",
+      "number": 8,
+      "status": "pending"
+    },
+    {
+      "description": "Build a prototype and deploy it promptly to disposable staging.",
+      "id": "stage-prototype",
+      "number": 9,
+      "status": "pending"
+    },
+    {
+      "description": "Obtain owner comparison and visual acceptance in client and BlueMap.",
+      "id": "owner-acceptance",
+      "number": 10,
+      "status": "pending"
+    },
+    {
+      "description": "Seal staging and publication identities and run the release gate.",
+      "id": "seal-release",
+      "number": 11,
+      "status": "pending"
+    },
+    {
+      "description": "Merge, tag, publish, verify, and update root coordination.",
+      "id": "publish-coordinate",
+      "number": 12,
+      "status": "pending"
+    }
+  ],
+  "template_sha256": "96f6497d2ea982ea702c0208ddf202393bb331b1b24f6600bd9a328ca62f4540"
+}

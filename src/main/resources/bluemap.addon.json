@@ -1,0 +1,6 @@
+{
+  "id": "bluemap-pneumaticcraft",
+  "entrypoint": "io.github.janguenter.bluemap.pneumaticcraft.BlueMapPneumaticCraftAddon",
+  "dependencies": [],
+  "soft-dependencies": []
+}
