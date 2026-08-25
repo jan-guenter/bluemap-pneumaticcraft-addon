@@ -65,7 +65,7 @@ public final class AddonRuntime {
         }
         String normalized = value.trim().toLowerCase(Locale.ROOT).replace(' ', '-');
         if (!normalized.matches("[a-z0-9][a-z0-9._:-]*")) {
-            throw new IllegalArgumentException("activation detail is not a wire value");
+            throw new IllegalArgumentException("activation detail is not a safe value");
         }
         return normalized;
     }

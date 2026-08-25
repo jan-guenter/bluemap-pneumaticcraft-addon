@@ -1,2 +1,25 @@
 case_id	label	x	y	z	block_state	expected
-stock-control	stone stock rendering control	176	100	175	minecraft:stone	stock-visible
+cross-pressure_tube-center	pressure_tube horizontal cross	177	100	183	pneumaticcraft:pressure_tube	tube-topology-visible
+cross-pressure_tube-west	pressure_tube horizontal cross	176	100	183	pneumaticcraft:pressure_tube	tube-topology-visible
+cross-pressure_tube-east	pressure_tube horizontal cross	178	100	183	pneumaticcraft:pressure_tube	tube-topology-visible
+cross-pressure_tube-north	pressure_tube horizontal cross	177	100	182	pneumaticcraft:pressure_tube	tube-topology-visible
+cross-pressure_tube-south	pressure_tube horizontal cross	177	100	184	pneumaticcraft:pressure_tube	tube-topology-visible
+isolated-pressure_tube	pressure_tube isolated	177	100	190	pneumaticcraft:pressure_tube	tube-core-visible
+cross-reinforced_pressure_tube-center	reinforced_pressure_tube horizontal cross	188	100	183	pneumaticcraft:reinforced_pressure_tube	tube-topology-visible
+cross-reinforced_pressure_tube-west	reinforced_pressure_tube horizontal cross	187	100	183	pneumaticcraft:reinforced_pressure_tube	tube-topology-visible
+cross-reinforced_pressure_tube-east	reinforced_pressure_tube horizontal cross	189	100	183	pneumaticcraft:reinforced_pressure_tube	tube-topology-visible
+cross-reinforced_pressure_tube-north	reinforced_pressure_tube horizontal cross	188	100	182	pneumaticcraft:reinforced_pressure_tube	tube-topology-visible
+cross-reinforced_pressure_tube-south	reinforced_pressure_tube horizontal cross	188	100	184	pneumaticcraft:reinforced_pressure_tube	tube-topology-visible
+isolated-reinforced_pressure_tube	reinforced_pressure_tube isolated	188	100	190	pneumaticcraft:reinforced_pressure_tube	tube-core-visible
+cross-advanced_pressure_tube-center	advanced_pressure_tube horizontal cross	199	100	183	pneumaticcraft:advanced_pressure_tube	tube-topology-visible
+cross-advanced_pressure_tube-west	advanced_pressure_tube horizontal cross	198	100	183	pneumaticcraft:advanced_pressure_tube	tube-topology-visible
+cross-advanced_pressure_tube-east	advanced_pressure_tube horizontal cross	200	100	183	pneumaticcraft:advanced_pressure_tube	tube-topology-visible
+cross-advanced_pressure_tube-north	advanced_pressure_tube horizontal cross	199	100	182	pneumaticcraft:advanced_pressure_tube	tube-topology-visible
+cross-advanced_pressure_tube-south	advanced_pressure_tube horizontal cross	199	100	184	pneumaticcraft:advanced_pressure_tube	tube-topology-visible
+isolated-advanced_pressure_tube	advanced_pressure_tube isolated	199	100	190	pneumaticcraft:advanced_pressure_tube	tube-core-visible
+tank-small_tank	small_tank empty structural control	175	100	200	pneumaticcraft:small_tank	stock-resource-visible
+tank-medium_tank	medium_tank empty structural control	179	100	200	pneumaticcraft:medium_tank	stock-resource-visible
+tank-large_tank	large_tank empty structural control	183	100	200	pneumaticcraft:large_tank	stock-resource-visible
+tank-huge_tank	huge_tank empty structural control	187	100	200	pneumaticcraft:huge_tank	stock-resource-visible
+heat-pipe-control	heat pipe stock multipart control	194	100	200	pneumaticcraft:heat_pipe[east=true,west=true]	stock-resource-visible
+stock-control	stone stock rendering control	202	100	200	minecraft:stone	stock-visible
