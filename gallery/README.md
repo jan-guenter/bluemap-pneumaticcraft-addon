@@ -1,11 +1,12 @@
-# Placeholder gallery
+# PneumaticCraft pressure-tube visual gallery
 
-This generated gallery proves only the deterministic data-pack mechanics and a
-single `minecraft:stone` stock control at `(176, 100, 175)`. It does not claim
-PneumaticCraft: Repressurized support.
+This bounded gallery covers isolated, horizontal-cross, vertical-line, and
+mixed-tier topology for all three exact pressure-tube blocks. Four empty tank
+shells, one heat-pipe multipart state, and one stone block are stock-rendering
+controls. Tube modules, camouflage, pressure, fluids, and animation are not
+represented in this first static pass.
 
-Replace `cases.py` with the smallest real defect fixture and stock controls,
-then keep the stable commands:
+Keep the stable commands:
 
 ```bash
 python gallery/generate.py
@@ -14,6 +15,5 @@ python gallery/lint.py
 bash gallery/package.sh /tmp/pneumaticcraft-gallery.zip
 ```
 
-The release gate rejects the `SCAFFOLD_NOT_IMPLEMENTED` marker in `cases.py`.
 Keep gallery generation deterministic, bounded, synthetic where practical, and
 free of candidate assets or captured meshes.
