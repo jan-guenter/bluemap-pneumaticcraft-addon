@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-package io.github.janguenter.bluemap.pneumaticcraft.adapter.bluemap522;
+package io.github.janguenter.bluemap.pneumaticcraft.adapter.bluemap523;
 
 import de.bluecolored.bluemap.core.map.TextureGallery;
 import de.bluecolored.bluemap.core.map.hires.MaxCapacityReachedException;
@@ -110,7 +110,7 @@ final class PressureTubeRenderer implements BlockRenderer {
     }
 
     private static boolean isLoaderVariant(String blockId, Variant variant) {
-        return variant.getRenderer() == BlueMap522Adapter.renderer()
+        return variant.getRenderer() == BlueMap523Adapter.renderer()
                 && PressureTubeCatalog.loaderModelKey(blockId).equals(variant.getModel())
                 && !variant.isTransformed() && !variant.isUvlock();
     }

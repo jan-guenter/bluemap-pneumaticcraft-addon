@@ -1,9 +1,10 @@
 # BlueMap PneumaticCraft: Repressurized Add-on
 
-A Java 21 BlueMap add-on for the exact `pneumaticcraft-8.2.23-mc1.21.1` profile in All the Mons
-`1.2.0` / Minecraft `1.21.1`.
+A Java 21 BlueMap 5.23 feature-backport add-on for the exact
+`pneumaticcraft-8.2.23-mc1.21.1` profile in All the Mons `1.2.0` / Minecraft
+`1.21.1`.
 
-Status: owner-accepted `0.1.0-alpha.1` release candidate. After exact artifact
+Status: owner-accepted `0.1.0-alpha.2` release candidate. After exact artifact
 admission, it rebuilds all three pressure-tube families from PneumaticCraft's
 installed models and textures, including isolated tubes and horizontal,
 vertical, and mixed-tier tube connections.
@@ -11,10 +12,15 @@ vertical, and mixed-tier tube connections.
 ## Build
 
 Clone with `--recurse-submodules`, or initialize an existing checkout with
-`git submodule update --init --recursive -- tooling/bluemap-addon-toolkit`.
-The settings preflight accepts only the committed toolkit gitlink at commit
-`6cd34a8368cc4ee8628fbe830a90ec5b14960629` and rejects an uninitialized,
-changed, or dirty toolkit checkout.
+the two pinned support modules:
+
+```bash
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit modules/bluemap-addon-adapter-api
+```
+
+The settings preflight accepts only their committed gitlinks and rejects an
+uninitialized, changed, dirty, or incorrectly pinned checkout.
 
 ```bash
 gradle --no-daemon -PbluemapSourcePath=../bluemap-backport clean check build
