@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "unpublished-migration-candidate",
+  "status": "owner-accepted-release-candidate",
   "published": false,
   "version": "0.1.0-alpha.2",
   "release_date": "2026-08-31",
@@ -71,6 +71,69 @@
     "exact_feature_backport_runtime_identity_gate": true,
     "gradle_9_6_1_clean_build": true,
     "gallery_lint": true,
-    "checkstyle": true
+    "checkstyle": true,
+    "release_candidate_gate": true,
+    "staged_equivalence": true
+  },
+  "owner_accepted_staging": {
+    "visual_acceptance": true,
+    "accepted_on": "2026-08-31",
+    "scope": "Owner accepted the five-gallery aggregate batch containing all three PneumaticCraft pressure-tube families and their tested topology.",
+    "integration_run": "bluemap-atmons-integration-20260831-tech-batch-523-native",
+    "candidate_manifest": {
+      "sha256": "5b42eb108509c0c497c29c933d2a6a242a6a9b2f602957d258c90fb29e2a4c8c",
+      "local_candidate_base_source_commit": "a19b0b34075131d4124e301860eca9e5c4d46267",
+      "local_candidate_base_artifact": {
+        "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.2.jar",
+        "size": 79270,
+        "sha256": "1c02613dccff7aeace84d68290ac88ad9b0f3842881c246c9bf7d8a60fd3cc1e"
+      },
+      "aggregate_staging_artifact": {
+        "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.1.jar",
+        "size": 79639,
+        "sha256": "9b8a7c17b0a4606316cf26e0854990acd9fa5918812ca53b63aeef0cdb1a7de5"
+      }
+    },
+    "gallery_render": {
+      "map_id": "atmons_integration",
+      "composition_id": "4c1139e67bee1f570824ac90bdc12a4331381946acf4cd593609c51c3a4c894a",
+      "layout_sha256": "5ea9a96c5e5b159057441a6eb6fbfdbf47aa06b95dadfcb2756246b117a04944",
+      "fresh_tile_evidence_sha256": "a9d997a033aa422cab225fbf058a25a4011e06c25889121770f9378edba0c69b",
+      "region_count": 4,
+      "tile_count": 589
+    },
+    "browser_capture": {
+      "state_sha256": "cbc1a6517f8979539b36e129145a6470ecba7a14f557240c8da4fef54db41104",
+      "screenshot_sha256": "74c4c2c717999c18c8e38bfbde9c79c1c88d7514c3c88e11c6c394cfa2022eef",
+      "navigation_status": 200,
+      "context_lost": false
+    }
+  },
+  "accepted_staging_entries": {
+    "path": "provenance/accepted-staging-entries.sha256",
+    "entry_count": 26,
+    "sha256": "e79ec80687bd54769fb8076a707373bf8608c1fc21281ee769a1e787c0effee7"
+  },
+  "final_release_artifacts": {
+    "production_jar": {
+      "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.2.jar",
+      "size": 79270,
+      "sha256": "1c02613dccff7aeace84d68290ac88ad9b0f3842881c246c9bf7d8a60fd3cc1e"
+    },
+    "sources_jar": {
+      "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.2-sources.jar",
+      "size": 52011,
+      "sha256": "6316e7b8d43977d67732e922fdc60329326799142d11ab7260c7b36b7080291b"
+    },
+    "pom": {
+      "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.2.pom",
+      "size": 1389,
+      "sha256": "660e10b57d34a18f94a28649de790cf7a3bc07da8169a81c7cd087f5f0944a21"
+    },
+    "gradle_module": {
+      "file_name": "bluemap-pneumaticcraft-addon-0.1.0-alpha.2.module.json",
+      "size": 2866,
+      "sha256": "75323dd96ddd4f11cb40589db207657e1816c715706a1b934f3b3497a4bd1d5b"
+    }
   }
 }

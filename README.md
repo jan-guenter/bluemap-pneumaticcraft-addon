@@ -4,7 +4,7 @@ A Java 21 BlueMap 5.23 feature-backport add-on for the exact
 `pneumaticcraft-8.2.23-mc1.21.1` profile in All the Mons `1.2.0` / Minecraft
 `1.21.1`.
 
-Status: unpublished `0.1.0-alpha.2` migration candidate. After exact artifact
+Status: owner-accepted `0.1.0-alpha.2` release candidate. After exact artifact
 admission, it rebuilds all three pressure-tube families from PneumaticCraft's
 installed models and textures, including isolated tubes and horizontal,
 vertical, and mixed-tier tube connections.
